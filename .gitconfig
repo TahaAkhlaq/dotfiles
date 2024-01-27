@@ -20,6 +20,7 @@ r = reset
 re = rebase
 s = status
 st = stash
+gpg = log --show-signature -1
 
 [checkout]
 workers = 8
