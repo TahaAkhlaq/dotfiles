@@ -25,12 +25,14 @@ alias c="clear"
 alias cwd="pwd | pbcopy" #copy working directory
 alias ppwd="pbpaste" #paste working directory
 alias ls="colorls"
+alias l="colorls"
 alias ll="colorls -l"
 alias la="colorls -a"
 alias lla="colorls -la"
+alias vs="code"
 
 # >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
+# Contents within this block are managed by 'conda init'
 __conda_setup="$('/Users/taha/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
@@ -43,4 +45,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
