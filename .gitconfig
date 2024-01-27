@@ -1,0 +1,60 @@
+[user]
+name = Taha Akhlaq
+email = takhlaq04@gmail.com
+signingkey = 58638F7782617897
+
+[alias]
+a = add
+b = blame
+br = branch
+c = commit
+cl = clean
+co = checkout
+d = diff
+f = fetch
+l = log
+graph = log --all --graph --decorate --oneline
+p = push
+pu = pull
+r = reset
+re = rebase
+s = status
+st = stash
+
+[checkout]
+workers = 8
+
+[color]
+ui = auto
+
+[commit]
+gpgsign = true
+verbose = true
+
+[core]
+editor = code
+
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+
+[init]
+defaultBranch = master
+
+[merge]
+ff = false
+
+[pull]
+ff = true
+rebase = false
+
+[push]
+autoSetupRemote = true
+
+[submodule]
+recurse = true
+
+[gpg]
+program = /usr/local/MacGPG2/bin/gpg2
