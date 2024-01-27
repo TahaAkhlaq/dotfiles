@@ -34,7 +34,7 @@ verbose = true
 
 [core]
 editor = code
-	excludesfile = /Users/taha/.gitignore_global
+excludesfile = /Users/taha/.gitignore_global
 
 [filter "lfs"]
 clean = git-lfs clean -- %f
@@ -43,7 +43,7 @@ process = git-lfs filter-process
 required = true
 
 [init]
-defaultBranch = master
+defaultBranch = main
 
 [merge]
 ff = false
