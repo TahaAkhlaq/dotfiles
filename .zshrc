@@ -19,3 +19,10 @@ source $ZSH/oh-my-zsh.sh
 #Hook direnv into zsh
 eval "$(direnv hook zsh)"
 export EDITOR="code --wait"
+
+#Aliases
+
+alias c="clear"
+alias cwd="pwd | pbcopy" #copy working directory
+alias ppwd="pbpaste" #paste working directory
+alias ll="ls -la"
