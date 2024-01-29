@@ -10,3 +10,13 @@ debug
 .repro
 foo.*
 data
+.venv
+.vscode
+build
+__pycache__
+.direnv
+.cargo
+.platformio
+.ruff_cache
+.sconsign.dblite
+temperfileRunner.*
