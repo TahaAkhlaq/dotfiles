@@ -15,7 +15,7 @@ f = fetch
 l = log
 graph = log --all --graph --decorate --oneline
 p = push
-pu = pul
+pu = pull
 r = reset
 re = rebase
 s = status
@@ -32,7 +32,7 @@ ui = auto
 gpgsign = true
 verbose = true
 
-[core]
+[core]q
 editor = code
 excludesfile = /Users/taha/.gitignore_global
 
