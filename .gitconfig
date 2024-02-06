@@ -18,6 +18,7 @@ p = push
 pu = pull
 r = reset
 re = rebase
+rf = reflog
 s = status
 st = stash
 gpg = log --show-signature -1
