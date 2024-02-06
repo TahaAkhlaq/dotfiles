@@ -7,8 +7,7 @@ signingkey = 58638F7782617897
 a = add
 b = blame
 br = branch
-c = commit
-commit = commit --verbose
+c = commit 
 cl = clean
 co = checkout
 d = diff
@@ -48,6 +47,9 @@ defaultBranch = main
 
 [merge]
 ff = false
+
+[commit]
+verbose = true
 
 [pull]
 ff = true
