@@ -5,9 +5,9 @@ signingkey = 58638F7782617897
 
 [alias]
 a = add
-b = blame
-br = branch
-c = commit 
+bl = blame
+b = branch
+c = commit
 cl = clean
 co = checkout
 d = diff
