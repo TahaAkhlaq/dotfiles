@@ -33,7 +33,7 @@ ui = auto
 gpgsign = true
 verbose = true
 
-[core]q
+[core]
 editor = code
 excludesfile = /Users/taha/.gitignore_global
 
