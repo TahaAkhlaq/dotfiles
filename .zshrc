@@ -32,6 +32,9 @@ alias ll="colorls -l"
 alias la="colorls -a"
 alias lla="colorls -la"
 alias vs="code"
+alias grep="rg"
+alias find="fd"
+
 
 # >>> conda initialize >>>
 # Contents within this block are managed by 'conda init'
