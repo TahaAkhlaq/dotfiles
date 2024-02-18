@@ -21,7 +21,7 @@ re = rebase
 rf = reflog
 s = status
 st = stash
-gpg = log --show-signature -1
+gpg = log --show-signature
 
 [checkout]
 workers = 8
@@ -32,9 +32,9 @@ ui = auto
 [commit]
 gpgsign = true
 verbose = true
+editor = code --wait
 
 [core]
-editor = code
 excludesfile = /Users/taha/.gitignore_global
 
 [filter "lfs"]
@@ -48,9 +48,6 @@ defaultBranch = main
 
 [merge]
 ff = false
-
-[commit]
-verbose = true
 
 [pull]
 ff = true
