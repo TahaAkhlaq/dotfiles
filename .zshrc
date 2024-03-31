@@ -43,6 +43,8 @@ alias grep="rg"
 alias find="fd"
 alias cat="bat"
 
+alias python="python3"
+
 # Custom Commands and Hooks
 
 # Hook direnv into zsh
