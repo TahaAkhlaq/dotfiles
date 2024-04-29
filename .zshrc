@@ -44,6 +44,8 @@ alias find="fd"
 alias cat="bat"
 
 alias python="python3"
+alias gcc="gcc-13 -std=c17" #C17
+alias g++="g++-13 -std=c++2b" # C++23
 
 # Custom Commands and Hooks
 
