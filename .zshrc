@@ -44,8 +44,10 @@ alias find="fd"
 alias cat="bat"
 
 alias python="python3"
-alias gcc="gcc-13 -std=c17" #C17
-alias g++="g++-13 -std=c++2b" # C++23
+alias clang='clang -std=c17'       # C17
+alias clang++='clang++ -std=c++23' # C++23
+alias gcc='gcc -std=c17'           # C17
+alias g++='g++ -std=c++2b'         # C++23
 
 # Custom Commands and Hooks
 
@@ -53,3 +55,8 @@ alias g++="g++-13 -std=c++2b" # C++23
 eval "$(direnv hook zsh)"
 
 # ------------------------------ Additional Configuration ------------------------------
+# Add Homebrew's LLVM tools directory to PATH (Clang Compiler)
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+# Add Homebrew's general binaries directory to PATH
+export PATH="/opt/homebrew/bin:$PATH"
