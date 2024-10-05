@@ -26,3 +26,4 @@ temperfileRunner.*
 *.fdb_latexmk
 *.synctex.gz
 *.o
+output/
