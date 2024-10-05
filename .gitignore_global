@@ -25,3 +25,4 @@ temperfileRunner.*
 *.log
 *.fdb_latexmk
 *.synctex.gz
+*.o
