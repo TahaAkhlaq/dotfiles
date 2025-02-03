@@ -30,7 +30,7 @@ workers = 8
 ui = auto
 
 [commit]
-gpgsign = true
+gpgSign = false
 verbose = true
 editor = code --wait
 
